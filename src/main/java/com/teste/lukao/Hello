@@ -1,4 +1,4 @@
-package com.teste.lukao;
+﻿package com.teste.lukao;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @GetMapping
     public String hello(){
-        return "Olá, tudo bem? Deploy de sucesso, rock with it!";
+        return "Olá, tudo bem? Deploy de sucesso, let's rock!";
     }
 }
