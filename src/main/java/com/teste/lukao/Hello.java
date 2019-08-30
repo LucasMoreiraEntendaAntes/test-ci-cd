@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @GetMapping
     public String hello(){
-        return "Olá, tudo bem? Deploy de sucesso, rock n' roll!";
+        return "This is the last test. Hope it is successfully done!";
     }
 }
