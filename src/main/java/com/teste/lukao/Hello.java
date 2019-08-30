@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @GetMapping
     public String hello(){
-        return "This is the last test. Hope it is successfully done!";
+        return "Olá, tudo bem?";
     }
 }
