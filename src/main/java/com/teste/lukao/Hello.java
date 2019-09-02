@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @GetMapping
     public String hello(){
-        return "Deploy no RedHat e na Amazon Linux! Rocks!";
+        return "Deploy no RedHat e na Amazon Linux!";
     }
 }
